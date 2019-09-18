@@ -167,10 +167,10 @@ if (isset ($header_type) && $header_type != 'default') {
     }
     else
     {
-        include("includes/header.php");
+        include("includes/header_lbcc.php");
     }
 } else {
-    include("includes/header.php");
+    include("includes/header_lbcc.php");
 }
 
 /*if (in_array($_REQUEST["subject"], $chcGuides)) {
