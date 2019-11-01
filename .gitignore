@@ -62,7 +62,6 @@ $RECYCLE.BIN/
 *.msp
 
 assets/cache/*
-control/includes/config.php
 assets/images/*
 assets/users/*
 
