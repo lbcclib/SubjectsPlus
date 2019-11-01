@@ -1,7 +1,7 @@
 <?php
 // Report all PHP errors--helpful for debugging; turn off in production
-//ini_set('display_errors',1);
-//error_reporting(E_ALL);
+ini_set('display_errors',1);
+error_reporting(E_ALL);
 
 // In case this isn't set at server level.  Otherwise, PHP throws a warning.
 // List of settings here:  http://www.php.net/manual/en/timezones.php
