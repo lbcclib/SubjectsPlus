@@ -135,7 +135,7 @@ $user_photo_update = TRUE;
    http://www.yoursite.edu/library/sp/
    Make sure to include the trailing slash!
 */
-$BaseURL = "http://127.0.0.1/";
+$BaseURL = "https://sptest2-webapp.azurewebsites.net/";
 
 /* Name of this resource, i.e., SubjectsPlus */
 $resource_name = "SubjectsPlus";
