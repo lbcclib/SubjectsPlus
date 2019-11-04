@@ -142,7 +142,6 @@ img.main_logo {
 #header_inner_wrap {
     text-align: left;
     padding: 0;
-    margin: 0 auto;
     width: 100%;
     background-color: #transparent;
     height: 3em;
@@ -1872,4 +1871,12 @@ img.pluslet_card_image {
 
 #not-sidebar {
     margin-left: 25%;
+}
+
+.button-top {
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    background: #005B94;
+    color: #FFF;
 }

@@ -65,6 +65,7 @@ if (!isset ($noheadersearch)) {
             <span class="pure-u-1 pure-u-md-1-8">Research Help</span>
             <span class="pure-u-1 pure-u-md-1-8">For faculty</span>
             <span class="pure-u-1 pure-u-md-1-8">Search box</span>
+            <button class="pure-button button-top">My LB</button>
         </div>
     </div>
 </div> <!--end #header-->
