@@ -57,15 +57,22 @@ if (!isset ($noheadersearch)) {
 <div id="header"> 
     <div id="header_inner_wrap">
         <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-3-8">
+            <div class="pure-u-1 pure-u-md-1-4">
                 <a href="<?php print $PublicPath; ?>"><img class="main_logo" src="<?php print $AssetPath; ?>images/public/logo.png" alt="Home Page" /></a>
             </div>
-            <span class="pure-u-1 pure-u-md-1-8">Hours</span>
-            <span class="pure-u-1 pure-u-md-1-8">Databases</span>
-            <span class="pure-u-1 pure-u-md-1-8">Research Help</span>
-            <span class="pure-u-1 pure-u-md-1-8">For faculty</span>
-            <span class="pure-u-1 pure-u-md-1-8">Search box</span>
-            <button class="pure-button button-top">My LB</button>
+            <a class="pure-u-1 pure-u-md-1-8 header-link" href="https://library.linnbenton.edu/hours">Hours</a>
+            <a class="pure-u-1 pure-u-md-1-8 header-link" href="databases.php">Databases</a>
+            <a class="pure-u-1 pure-u-md-1-8 header-link" href="https://library.linnbenton.edu/contact">Research Help</a>
+            <a class="pure-u-1 pure-u-md-1-8 header-link" href="http://library.linnbenton.edu/c.php?g=13287&p=70894">For faculty</a>
+	    <form class="pure-u-1 pure-u-md-1-4" action="https://libfind.linnbenton.edu:4430">
+                <label for="header-findit">Search library resources</label>
+                <input name="q" id="header-findit" type="text" aria-label="Search query">
+		<button class="pure-button header-findit-search" type="submit" aria-label="Search">
+                    <span class="fa fa-search" aria-hidden="true"></span></button>
+            </form>
+	    <a href="https://identity.linnbenton.edu" class="pure-button button-top">
+                <span class="fa fa-user" aria-hidden="true"></span>
+                My LB</a>
         </div>
     </div>
 </div> <!--end #header-->
