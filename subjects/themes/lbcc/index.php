@@ -343,15 +343,6 @@ include("includes/header_lbcc.php");
                  
 
   </div><!--end 1/3 sidebar area-->
-
-<?php
-///////////////////////////
-// Load footer file
-///////////////////////////
-
-include("includes/footer_lbcc.php");
-
-?>
 </div>
 
 <script type="text/javascript" language="javascript">
@@ -398,3 +389,12 @@ include("includes/footer_lbcc.php");
 
     });
 </script>
+
+<?php
+///////////////////////////
+// Load footer file
+///////////////////////////
+
+include("includes/footer_lbcc.php");
+
+?>
