@@ -26,9 +26,9 @@ if (isset($_POST["searchterm"])) {
 }
 
 // If you have a theme set, but DON'T want to use it for this page, comment out the next line
-if (isset($subjects_theme)  && $subjects_theme != "") { include("themes/$subjects_theme/search.php"); exit;}
+#if (isset($subjects_theme)  && $subjects_theme != "") { include("themes/$subjects_theme/search.php"); exit;}
 
-include("includes/header.php");
+include("includes/header_lbcc.php");
 
 // Our search box
 $input_box = new CompleteMe("sp_search", $PublicPath . "search.php", "search.php", "", '', "60", "");
@@ -53,7 +53,7 @@ if (isset($_POST["searchterm"])) {
 		    break;
 
 		  case 'Subject Guide':
-		    $guides_results[] = "<a href='guide.php?subject_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";
+		    $guides_results[] = "<a href='guide.php?id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";
 		    break;
 
 		  case 'FAQ':
@@ -134,6 +134,6 @@ $subtitle = _("Search Results for ") . $_POST['searchterm'];
 //print "<pre>";
 //print_r($results);
 
-include("includes/footer.php");
+include("includes/footer_lbcc.php");
 
 ?>
