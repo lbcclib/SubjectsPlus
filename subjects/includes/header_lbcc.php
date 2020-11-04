@@ -59,7 +59,7 @@ if (!isset ($noheadersearch)) {
         <a href="#content-after-navs" id="skiptocontent">Skip to Main Content</a>
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-1-4">
-                <a href="<?php print $PublicPath; ?>"><img class="main_logo" src="<?php print $AssetPath; ?>images/public/logo.png" alt="Home Page" /></a>
+                <a href="https://linnbenton.edu/library"><img class="main_logo" src="<?php print $AssetPath; ?>images/public/logo.png" alt="Library Home Page" /></a>
             </div>
             <a class="pure-u-1 pure-u-md-1-8 header-link" href="covid19">COVID-19 services</a>
             <a class="pure-u-1 pure-u-md-1-8 header-link" href="databases.php">Databases</a>
