@@ -78,7 +78,7 @@ if (!isset ($noheadersearch)) {
           <h1><?php print $page_title ?></h1>
           <?php if (strpos($_SERVER['REQUEST_URI'], 'talkback') === false): ?>
             <div class="all-page-alert">
-            During fall term 2020, the LBCC Library building is closed, but you can still access our services and collections.
+            The LBCC Library building is closed, but you can still access our services and collections.
             Learn more on our <a href="https://libhelp.linnbenton.edu/subjects/covid19">COVID-19/ Remote Services page</a>.
             </div>
           <?php endif; ?>
