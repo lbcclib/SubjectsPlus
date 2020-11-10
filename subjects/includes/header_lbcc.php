@@ -59,7 +59,7 @@ if (!isset ($noheadersearch)) {
         <a href="#content-after-navs" id="skiptocontent">Skip to Main Content</a>
         <div class="pure-g">
             <div class="pure-u-1 pure-u-md-1-4">
-                <a href="<?php print $PublicPath; ?>"><img class="main_logo" src="<?php print $AssetPath; ?>images/public/logo.png" alt="Home Page" /></a>
+                <a href="https://linnbenton.edu/library"><img class="main_logo" src="<?php print $AssetPath; ?>images/public/logo.png" alt="Library Home Page" /></a>
             </div>
             <a class="pure-u-1 pure-u-md-1-8 header-link" href="covid19">COVID-19 services</a>
             <a class="pure-u-1 pure-u-md-1-8 header-link" href="databases.php">Databases</a>
@@ -78,7 +78,7 @@ if (!isset ($noheadersearch)) {
           <h1><?php print $page_title ?></h1>
           <?php if (strpos($_SERVER['REQUEST_URI'], 'talkback') === false): ?>
             <div class="all-page-alert">
-            During fall term 2020, the LBCC Library building is closed, but you can still access our services and collections.
+            The LBCC Library building is closed, but you can still access our services and collections.
             Learn more on our <a href="https://libhelp.linnbenton.edu/subjects/covid19">COVID-19/ Remote Services page</a>.
             </div>
           <?php endif; ?>
