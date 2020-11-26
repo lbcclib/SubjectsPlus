@@ -26,8 +26,7 @@ if ($this->_contact_type) {
 <?php else: ?>
 <a href="https://v2.libanswers.com/chati.php?hash=608b00394095f20b06021523d15418ff" class="contact-pluslet-link">
   <span class="fa fa-commenting fa-2x yellow-background contact-circle"></span>
-  Chat
-</a> (available 24/7)
+  Chat</a> (available 24/7)
 <?php endif; ?>
 
 <br />
