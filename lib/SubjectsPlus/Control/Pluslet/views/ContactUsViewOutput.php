@@ -1,9 +1,9 @@
 <?php
 $orgs = [
-  'hoc' => ['title' => 'HOC Library', 'phone' => '15419188840', 'formatted_phone' => '541-918-8840', 'email' => 'miyagib@linnbenton.edu'],
+  'hoc' => ['title' => 'the HOC Library', 'phone' => '15419188840', 'formatted_phone' => '541-918-8840', 'email' => 'miyagib@linnbenton.edu'],
   'circ' => ['title' => 'LBCC Library Circulation Services', 'phone' => '15419174638', 'formatted_phone' => '541-917-4638', 'email' => 'libcirc@linnbenton.edu'],
-  'ref' => ['title' => 'LBCC Library Reference Services', 'phone' => '15419174645', 'formatted_phone' => '541-917-4645', 'email' => 'libref@linnbenton.edu'],
-  'shd' => ['title' => 'Student Help Desk', 'phone' => '15419174630', 'formatted_phone' => '541-917-4630', 'email' => 'student.helpdesk@linnbenton.edu'],
+  'ref' => ['title' => 'a Librarian', 'phone' => '15419174645', 'formatted_phone' => '541-917-4645', 'email' => 'libref@linnbenton.edu'],
+  'shd' => ['title' => 'the Student Help Desk', 'phone' => '15419174630', 'formatted_phone' => '541-917-4630', 'email' => 'student.helpdesk@linnbenton.edu'],
 ];
 if ($this->_contact_type) {
   $org = $orgs[$this->_contact_type];
@@ -13,7 +13,7 @@ if ($this->_contact_type) {
 ?>
 
 
-<h2>Contact the <?php echo $org['title'] ?></h2>
+<h2>Contact <?php echo $org['title'] ?></h2>
 <a href="tel:<?php echo $org['phone'] ?>" class="contact-pluslet-link">
   <span class="fa fa-phone fa-2x maroon-background contact-circle"></span>
   Call: <?php echo $org['formatted_phone'] ?>
@@ -27,7 +27,7 @@ if ($this->_contact_type) {
 <a href="https://v2.libanswers.com/chati.php?hash=608b00394095f20b06021523d15418ff" class="contact-pluslet-link">
   <span class="fa fa-commenting fa-2x yellow-background contact-circle"></span>
   Chat
-</a>
+</a> (available 24/7)
 <?php endif; ?>
 
 <br />
