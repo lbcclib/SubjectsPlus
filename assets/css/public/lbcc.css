@@ -1800,7 +1800,7 @@ a.header-link {
 
 /* Here's an invisible border, so that the focus indicator
 doesn't shift things around on the screen unexpectedly */
-input, button, a[href] {
+input, button, a[href], select {
     border: 6px solid transparent;
 }
 
@@ -1815,7 +1815,7 @@ input, button, a[href] {
 }
 
 
-input:focus, button:focus, a:focus {
+input:focus, button:focus, a:focus, select:focus {
     outline: none;
     border: 6px solid #45A169 !important;
 }
@@ -2004,8 +2004,22 @@ button.print-img-tabs, button.print-img-no-tabs {
 
 /* FindIt Pluslet */
 .findit-search {
-  border: 3px solid #873d5a;
-  font-size: 1.5em;
+  padding: 5px;
   color: #000;
   background: #F9F5F7;
+  margin: 2px;
+  border-radius: 8px;
+}
+
+.search-bar-grouping {
+  max-width: 820px;
+  background-color: #27AAE1;
+  padding: 5px 7px 5px 7px;
+  border-radius: 9px;
+}
+
+.findit-description {
+  margin-top: 9px;
+  margin-bottom: 12px;
+  font-size: 1.3em;
 }

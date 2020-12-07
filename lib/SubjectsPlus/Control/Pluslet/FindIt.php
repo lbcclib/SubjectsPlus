@@ -17,7 +17,7 @@ class Pluslet_FindIt extends Pluslet {
         $this->_type = "FindIt";
         $this->_pluslet_bonus_classes = "type-findit";
 
-        $this->_title = _("Discover library content");
+        $this->_title = _("FindIt");
         $this->_hide_titlebar = false;
     }
 
