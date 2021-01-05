@@ -49,6 +49,8 @@ class Mailer {
 		$mailer->Port = $this->Port;
 
 		$mailer->isHTML(true);
+		
+		$mailer->SMTPSecure = "tls";
 
 		if($this->SMTPAuth == true) {
 
