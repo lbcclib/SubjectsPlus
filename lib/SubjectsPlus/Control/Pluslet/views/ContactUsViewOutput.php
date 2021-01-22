@@ -35,13 +35,11 @@ if ($this->_contact_type) {
   Email: <?php echo $org['email'] ?>
 </a>
 <br />
-<!--
-<a href="https://linnbenton.zoom.us/j/243933025" class="contact-pluslet-link">
+<a href="https://linnbenton.zoom.us/j/5419174645" class="contact-pluslet-link">
   <span class="fa fa-laptop fa-2x dark-blue-background contact-circle"></span>
   Zoom
 </a>
 <br />
--->
 <?php if ('ref' === $this->_contact_type): ?>
   <a href="sms:16506676620" class="contact-pluslet-link">
     <span class="fa fa-mobile fa-2x maroon-background contact-circle"></span>
