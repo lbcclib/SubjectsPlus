@@ -588,4 +588,6 @@ $mapbox_home_coords = "";
 
 $libchat_hash = getenv('sp_libchat_hash');
 
+$worldcat_search_url = 'https://linn.on.worldcat.org/search'
+
 ?>

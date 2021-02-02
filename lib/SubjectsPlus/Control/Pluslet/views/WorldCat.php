@@ -115,7 +115,7 @@ function checkSearchForm() {
             </ul>
 
             <div id="box">
-                <input type="text" name="q" id="q" maxlength="80">
+                <input type="text" name="queryString" id="q" maxlength="80">
                 <input type="submit" value="Search" name="wcsbtn2w" id="wcsbtn2w" alt="Search" title="Search" class="pure-button pure-button-pluslet">                  
                 <div id="journalsearch" style="display: none;"></div>
             </div>
