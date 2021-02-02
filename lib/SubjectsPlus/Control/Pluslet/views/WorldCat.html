@@ -92,7 +92,7 @@ function checkSearchForm() {
 
 <div id="div-search">
 
-    <form name="wcfw" id="wcfw" method="get" accept-charset="UTF-8" action="https://linn.on.worldcat.org/search" target="_blank" onsubmit="return checkSearchForm()" class="pure-form">    
+    <form name="wcfw" id="wcfw" method="get" accept-charset="UTF-8" action="https://biust.on.worldcat.org/search" target="_blank" onsubmit="return checkSearchForm()" class="pure-form">    
 
         <fieldset>
             <input type="hidden" name="qt" value="affiliate_wc_org_all">
@@ -105,11 +105,11 @@ function checkSearchForm() {
                 <li><a rel="books" class="">Books</a></li>
                 <li><a rel="dvds" class="">DVDs</a></li>
                 <li><a rel="cds" class="">CDs</a></li>
-                <!--<li><a rel="arts" class="">Articles</a></li>-->
+                <li><a rel="arts" class="">Articles</a></li>
             </ul>
 
             <div id="box">
-                <input type="text" name="queryString" id="q" maxlength="80">
+                <input type="text" name="q" id="q" maxlength="80">
                 <input type="submit" value="Search" name="wcsbtn2w" id="wcsbtn2w" alt="Search" title="Search" class="pure-button pure-button-pluslet">                  
                 <div id="journalsearch" style="display: none;"></div>
             </div>
