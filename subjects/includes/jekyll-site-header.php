@@ -106,7 +106,7 @@ if (is_null($header_type)
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="col-sm-11 col-lg-5 col-xl-4 order-sm-first icons-section">
-						<p class="heading">Fall 2020: Book a Library Seat</p>
+						<p class="heading">Spring 2021: Book a Library Seat</p>
 						<ul class="list-unstyled d-flex flex-row flex-nowrap icons-area">
 							<li class="icon-holder">
 								<a class="default no-decoration" href="https://www.library.miami.edu/seat">
@@ -338,7 +338,7 @@ if (is_null($header_type)
 											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/suggest-a-purchase/">Recommend a Purchase
 												</a></li>
 
-											<li><a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarly Repository
+											<li><a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarship@Miami
 												</a></li>
 
 											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/copyright.html">Understanding Copyright
@@ -384,10 +384,8 @@ if (is_null($header_type)
 
 											<li><a class="dropdown-item no-decoration" href="https://sp.library.miami.edu/subjects/index.php">Research Guides
 												</a></li>
-
-											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/copyright.html">Understanding Copyright
+											<li><a class="dropdown-item no-decoration" href="https://sp.library.miami.edu/subjects/staff.php?letter=Subject%20Librarians">Subject Librarians
 												</a></li>
-
 											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/workshops-tutorials.html">Workshops
 												</a></li>
 
@@ -428,7 +426,7 @@ if (is_null($header_type)
 
 
 
-										<h5>Organize & Design</h5>
+										<h5>Organize, Design, Write</h5>
 										<hr align="left" class="hr-decoration">
 										<ul>
 
@@ -437,19 +435,11 @@ if (is_null($header_type)
 
 											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/data-services.html">Data Management Strategies
 												</a></li>
-
-										</ul>
-
-
-
-										<h5>Write</h5>
-										<hr align="left" class="hr-decoration">
-										<ul>
-
+											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/copyright.html">Understanding Copyright
+												</a></li>
 											<li><a class="dropdown-item no-decoration" href="http://www.as.miami.edu/writingcenter/">Writing Center</a> <span class="d-none d-lg-inline-block">/</span> <a class="dropdown-item no-decoration" href="https://www.library.miami.edu/learningcommons/index.html">Learning Commons</a></li>
 
 										</ul>
-
 									</div>
 
 									<div class="col-12 col-lg-4">
@@ -464,7 +454,7 @@ if (is_null($header_type)
 											<li><a class="dropdown-item no-decoration" href="https://www.library.miami.edu/research/scholarly-communications.html">Scholarly Communications & Publishing
 												</a></li>
 
-											<li><a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarly Repository
+											<li><a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarship@Miami
 												</a></li>
 
 										</ul>
@@ -849,7 +839,7 @@ if (is_null($header_type)
 											<li class="mm-lib">
 												<img src="https://www.library.miami.edu/assets/common-images/mm-libraries/scholarly-repository2-sm.jpg"  alt="Scholarly Repository" class="mm-lib-img d-none d-lg-inline-block">
 												<div class="nested-items">
-													<a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarly Repository</a>
+													<a class="dropdown-item no-decoration" href="https://scholarship.miami.edu/discovery/search?vid=01UOML_INST:ResearchRepository">Scholarship@Miami</a>
 													<div class="mm-lib-time">Online</div>
 												</div>
 											</li>
