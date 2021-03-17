@@ -536,16 +536,7 @@ cloneView.init();
 // Load footer file
 ///////////////////////////
 
-// Do we have an alternate footer?
-if (isset ($header_type) && $header_type != 'default') {
-    if( file_exists("includes/footer_$header_type.php") )
-    {
-        include("includes/footer_$header_type.php");
-    }
-    else
-    {
-        include("includes/footer.php");
-    }
-} else {
-    include("includes/footer.php");
-}
+// Load a footer specifically for the guide view
+// Including an "Edit this guide" link
+
+include("includes/footer_lbcc_guide.php");
