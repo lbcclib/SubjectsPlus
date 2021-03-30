@@ -1808,12 +1808,6 @@ input, button, a[href], select {
     border: none;
 }
 
-.pluslet_body a[href]:before {
-    content: "\f0a9";
-     font-family: 'FontAwesome';
-    margin-right: 2px;
-}
-
 
 input:focus, button:focus, a:focus, select:focus {
     outline: none;
