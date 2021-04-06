@@ -235,6 +235,11 @@ print $tracking_image;
                 }
             }
             ?>
+            <div>
+              <a href="https://www.linnbenton.edu/student-services/library-tutoring-testing/library/contact.php"><span
+                class="fa fa-clock-o"></span>
+              Library Hours</a>
+            </div>
         </div>
 		<!-- end tab-container -->
 

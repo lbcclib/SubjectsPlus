@@ -30,7 +30,8 @@ p {margin-bottom: 10px;}
 
 body,
 .pure-g [class *= "pure-u"],
-.pure-g-r [class *= "pure-u"] {
+.pure-g-r [class *= "pure-u"],
+button {
     font-family: 'Lato', 'Helvetica', sans-serif;
     letter-spacing: .1px;
 }
@@ -1928,7 +1929,6 @@ a.no-decoration::before {
 }
 
 button.print-img-tabs, button.print-img-no-tabs {
-    border: none;
     background-color: inherit;
     color: inherit;
 }
@@ -1942,7 +1942,7 @@ button.print-img-tabs, button.print-img-no-tabs {
     border-bottom: 2px solid #27aae1;
 }
 
-#tab-container ul a {
+#tab-container a {
     color: #fff;
     text-decoration: none;
 }
