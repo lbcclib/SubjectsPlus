@@ -1,2 +1,2 @@
-#Assets should be cached for a month
-Header set Cache-Control "max-age=2628000, public"
+#Assets should be cached for a day
+Header set Cache-Control "max-age=86400, public"
